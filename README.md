@@ -23,7 +23,7 @@
 
 ---
 
-### 2. Trên một trong những host bị nhiễm, attacker đã thành công một backdoor user. Tên user này là gì?
+### 2. Trên một trong những host bị nhiễm, attacker đã tạo thành công một backdoor user. Tên user này là gì?
 - **Answer**: `A1berto`
 - **Giải thích**:
   - Đầu tiên, chúng ta cần biết Logs nào sẽ ghi lại các sự kiện khi một user mới được tạo ra? Vì chúng ta đang điều tra trong môi trường Windows thì Log liên quan sẽ là `Windows Security Logs` trong đó có các EventID.
@@ -129,7 +129,7 @@
 
 ---
 
-### 9. Một Powershell script được mã hóa từ máy chủ bị nhiễm đã khởi tạo một yêu cầu web. URL đầy đủ là gì?
+### 9. Một Powershell script được mã hóa từ host bị nhiễm đã khởi tạo một yêu cầu web. URL đầy đủ là gì?
 - **Answer**: `hxxp[://]10[.]10[.]10[.]5/news[.]php`
 - **Giải thích**:
   - Sau khi thực hiện truy vấn ```index="main" EventID="4104" OR EventID="4103"```, chúng ta đã phát hiện ra có `79` sự kiện thực thi Powershell. Ta cũng có thể kiểm tra trong trường “ContextInfo” và phát hiện các lệnh Powershell được mã hóa dạng base64.
