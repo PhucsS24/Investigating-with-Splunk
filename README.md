@@ -159,6 +159,6 @@
       - Tiếp tục giải mã chuỗi `aAB0AHQAcAA6AC8ALwAxADAALgAxADAALgAxADAALgA1AA==` với `cyberchef`.
         ![Hình ảnh](https://github.com/PhucsS24/Investigating-with-Splunk/blob/main/images/cau9.4.png)
       - Kết quả cho thấy đây là một đường dẫn đến webserver của attcker `hxxp[://]10[.]10[.]10[.]5` cùng với `/new.php` thì ta được một URL hoàn chỉnh là `hxxp[://]10[.]10[.]10[.]5/news[.]php`
-        ![Hình ảnh](https://github.com/PhucsS24/Investigating-with-Splunk/blob/main/images/cau0.5.png)
+        ![Hình ảnh](https://github.com/PhucsS24/Investigating-with-Splunk/blob/main/images/cau9.5.png)
 
 ---
